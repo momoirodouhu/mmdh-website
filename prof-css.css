@@ -1,4 +1,23 @@
+*{
+  margin: 0px;
+}
 body{
+  color: #eaeaea;
+  /*display: flex;
+  flex-direction:column;*/
+}
+@media screen and ( min-width : 600px ){
+  body{
+    display: flex;
+    flex-direction: row;
+  }
+}
+.about-me{
+  flex: 1;
+  height: 100vh;
   background-color: #000050;
-  color: #eaeaea
+}
+.links{
+  flex: 1;
+  background-color: #6E6BA6;
 }
